@@ -127,6 +127,11 @@ Let's make the final setup:
         `/home/pi/trust_paired.sh`
         if you save the script in another path, please use the path name in the .bashrc file
   5. no save and reboot.
-         
+  
+** NOTE ** 
+ When the wifi is enable an audio strutter can be noticed. 
+ The only fix for this issue is to turn off the wifi:
+ `sudo ifdown wlan0`
+  
 Romy Bompart
 03/04/2019
