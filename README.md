@@ -5,6 +5,7 @@ This is a example project to use the raspberry pi zero w as receiver device of a
   1. A raspberry pi zero W: https://www.raspberrypi.org/products/raspberry-pi-zero-w/ from @raspberrypi
   2. A hiffiberry Amp2: https://www.hifiberry.com/shop/boards/hifiberry-amp2/ from @hifiberry
   3. Two speakers of 4 ohms and 15W: https://www.amazon.com/gp/product/B01IP390Q8/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
+  4. A power supply of 18V/2A: https://www.amazon.com/VM80W18-Universal-Switching-Converter-Converts/dp/B001QK2JMK/ref=sr_1_9?keywords=Power+supply+18V&qid=1551687033&s=gateway&sr=8-9
  
 **How configure the raspberry pi zero w to use the hifiberry Amp2 as a sound card:**
   We have follow the steps written by the supplier:https://www.hifiberry.com/build/documentation/configuring-linux-3-18-x/
