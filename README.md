@@ -127,11 +127,21 @@ Let's make the final setup:
         `/home/pi/trust_paired.sh`
         if you save the script in another path, please use the path name in the .bashrc file
   5. no save and reboot.
-  
-** NOTE ** 
+
+**The sound control via python code**
+  1. The alsaaudio folder contains a example code to run in the raspberry pi zero W
+  2. The code is able to control de volume of the raspberry pi when it is playing the streaming audio.
+  3. For android I noticed that the volume buttons from the smartphone can control the volume of the raspberry pi zero W, 
+     but the iOS from iphone can't do that, so it will be neccesary to run this code alsaaudio_test.py in order to control
+     the audio volume.
+  4. run the code in your raspberry pi :
+      `sudo python3 alsaaudio_test.py`
+
+
+**NOTE** 
  When the wifi is enable an audio strutter can be noticed. 
  The only fix for this issue is to turn off the wifi:
  `sudo ifdown wlan0`
-  
+   
 Romy Bompart
 03/04/2019
